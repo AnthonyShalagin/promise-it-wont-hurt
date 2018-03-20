@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyShalagin/promise-it-wont-hurt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyShalagin/promise-it-wont-hurt/issues"
+  },
+  "homepage": "https://github.com/AnthonyShalagin/promise-it-wont-hurt#readme",
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-cloudreach": "^1.0.0"
+  }
 }
