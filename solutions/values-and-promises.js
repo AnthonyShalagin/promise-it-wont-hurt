@@ -12,4 +12,4 @@ function attachTitle (arg) {
 
 Promise.resolve('MANHATTAN')
 	.then(attachTitle)
-	.then(console.log);
+	.then(console.log(error.message));
