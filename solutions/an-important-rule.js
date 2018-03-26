@@ -4,7 +4,7 @@ function alwaysThrows() {
 
 function iterate(num) {
 	console.log(num);
-	return num + 1; 
+	return num + 1;
 }
 
 function onReject(error) {
